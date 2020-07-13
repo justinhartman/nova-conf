@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syntax name="conf">
+    <meta>
+        <name>Config</name>
+        <type>structured</type>
+        <preferred-file-extension>conf</preferred-file-extension>
+    </meta>
+
+    <detectors>
+        <extension priority="1.0">conf,cnf</extension>
+    </detectors>
+
+    <comments>
+        <single>
+            <expression>#</expression>
+        </single>
+    </comments>
+
+    <surrounding-pairs>
+        <pair open="&apos;" close="&apos;" />
+        <pair open="&quot;" close="&quot;" />
+    </surrounding-pairs>
+
+    <scopes>
+        <!-- Pairs -->
+        <scope name="conf.pair">
+            <starts-with>
+                <expression>^\s*([a-zA-Z0-9_.-]+)\s*(=| )</expression>
+                <capture number="1" name="conf.pair.identifier.key" />
+                <capture number="2" name="conf.pair.operator.equals" />
+            </starts-with>
+            <ends-with>
+                <expression>$</expression>
+            </ends-with>
+            <subscopes>
+                <include syntax="self" collection="values" />
+            </subscopes>
+        </scope>
+
+        <!-- Comments -->
+        <scope name="conf.comment.single" spell-check="true">
+            <expression>\#.*$</expression>
+        </scope>
+    </scopes>
+
+    <collections>
+        <!-- Values -->
+        <collection name="values">
+            <include syntax="self" collection="strings" />
+            <scope name="conf.value.boolean">
+                <strings>
+                    <string>true</string>
+                    <string>false</string>
+                </strings>
+            </scope>
+            <scope name="conf.value.number">
+                <expression>\b(\-|\+)?(?:\d+(?:\.\d*)?|(?:\.\d+))\b</expression>
+            </scope>
+        </collection>
+
+        <!-- Strings -->
+        <collection name="strings">
+            <scope name="conf.string.double-quoted">
+                <expression>&quot;(?:[^&quot;\\]|\\.)*(?:&quot;|$)</expression>
+            </scope>
+            <scope name="conf.string.single-quoted">
+                <expression>&apos;(?:[^&apos;\\]|\\.)*(?:&apos;|$)</expression>
+            </scope>
+        </collection>
+    </collections>
+</syntax>

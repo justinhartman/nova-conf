@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <provider>
+        <selector>conf</selector>
+        <expression>\b[a-zA-Z0-9-_]*</expression>
+        <set>conf.entities</set>
+    </provider>
+
+    <!-- Entities -->
+    <set name="conf.entities">
+        <completion string="&quot;" />
+        <completion string="&apos;" />
+        <completion string="&nbsp;" />
+    </set>
+</completions>
