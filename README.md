@@ -3,7 +3,7 @@
 <img style="float:left;width:100px;height:auto;padding:0 20px 0 0;"
 src="https://bit.ly/3er6C4J">
 
-[Nova][nova] editor syntax highlighter and code completion for all `.conf` and
+[Nova][nova] editor syntax highlighter and code completion for `.conf` and
 `.cnf` files. This extension will format any config files for Apache, Redis,
 MySQL, Memcache, or any other file with a `.conf` or `.cnf` file extension.
 
@@ -14,8 +14,8 @@ MySQL, Memcache, or any other file with a `.conf` or `.cnf` file extension.
 Detailed install instructions [are found over here][instructions].
 
 - **Extension Library**: The easiest way to install this extension is using
-  Nova's built in Extension Library. [Click here][install-nova] for instructions
-  on installing the extension using the Extension Library.
+  Nova's built in Extension Library. [Click here][install-nova] for
+  instructions on installing the extension using the Extension Library.
 
 - **Extension Download**: If you want to download the extension and install it
   manually, see the instructions for installing from GitHub
