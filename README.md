@@ -9,6 +9,18 @@ MySQL, Memcache, or any other file with a `.conf` or `.cnf` file extension.
 
 <div style="clear:both;"></div>
 
+## Install
+
+Detailed install instructions [are found over here][instructions].
+
+- **Extension Library**: The easiest way to install this extension is using
+  Nova's built in Extension Library. [Click here][install-nova] for instructions
+  on installing the extension using the Extension Library.
+
+- **Extension Download**: If you want to download the extension and install it
+  manually, see the instructions for installing from GitHub
+  [over here][install-github].
+
 ## Authors
 
 - Justin Hartman - [@justinhartman][author-1]
@@ -23,7 +35,7 @@ project.
 
 ## License
 
-This project is licensed under the `MIT` License. See the[LICENSE][license]
+This project is licensed under the `MIT` License. See the [`LICENSE`][license]
 file for full details.
 
 ## Versioning
@@ -38,14 +50,17 @@ View the [`CHANGELOG.md`][changelog] file for a detailed list of changes,
 along with specific tasks completed for each version released to date.
 
 [nova]: https://panic.com/nova/
-[license]: LICENSE
+[license]: https://github.com/justinhartman/nova-conf/blob/master/LICENSE.md
 [issues]:  https://github.com/justinhartman/nova-conf/issues
 [semver]: http://semver.org
 [tags]:  https://github.com/justinhartman/nova-conf/tags
 [releases]:  https://github.com/justinhartman/nova-conf/tags
 [contribs]:  https://github.com/justinhartman/nova-conf/graphs/master
+[latest]: https://github.com/justinhartman/nova-conf/releases/latest
 [author-1]: https://github.com/justinhartman
 [author-2]: https://22digital.co.za
-[changelog]: CHANGELOG.md
+[changelog]: https://github.com/justinhartman/nova-conf/blob/master/CHANGELOG.md
 [fa]: https://fontawesome.com/
-
+[instructions]: https://github.com/justinhartman/nova-conf/blob/master/INSTALL.md
+[install-nova]: https://github.com/justinhartman/nova-conf/blob/master/INSTALL.md#install-from-extension-library
+[install-github]: https://github.com/justinhartman/nova-conf/blob/master/INSTALL.md#install-from-github
