@@ -1,9 +1,9 @@
 {
   "identifier": "22digital.Config",
   "name": "Config",
-  "vendor": "22 Digital",
+  "vendor": "22digital",
   "description": "Syntax highlight and completion for all `.conf` & `.cnf` files.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "categories": ["languages"],
   "repository": "https://github.com/justinhartman/nova-conf",
   "license": "MIT",
