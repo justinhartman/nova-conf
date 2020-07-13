@@ -1,10 +1,11 @@
 # Config Highlighter for Nova
 
 <img style="float:left;width:100px;height:auto;padding:0 20px 0 0;"
-src="https://bit.ly/3er6C4J">[Nova][nova] editor syntax highlighter and code
-completion for all `.conf` and `.cnf` files. This extension will format any
-config files for Apache, Redis, MySQL, Memcache, or any other file with a
-`.conf` or `.cnf` file extension.
+src="https://bit.ly/3er6C4J">
+
+[Nova][nova] editor syntax highlighter and code completion for all `.conf` and
+`.cnf` files. This extension will format any config files for Apache, Redis,
+MySQL, Memcache, or any other file with a `.conf` or `.cnf` file extension.
 
 <div style="clear:both;"></div>
 
