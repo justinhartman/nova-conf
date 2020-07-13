@@ -25,7 +25,7 @@ plugin under the `Assets` section.
 
 ![Download on GitHub][install-github]
 
-[logo]: https://raw.githubusercontent.com/justinhartman/nova-conf/master/Images/extension/AppIcon.png
+[logo]: https://res.cloudinary.com/procoding/image/upload/v1594660525/GitHub/Nova/Config/AppIcon_yfsqcc.png
 [latest]: https://github.com/justinhartman/nova-conf/releases/latest
-[install-nova]: https://raw.githubusercontent.com/justinhartman/nova-conf/master/.github/nova-install.gif
-[install-github]: https://raw.githubusercontent.com/justinhartman/nova-conf/master/.github/github-install.jpeg
+[install-nova]: https://res.cloudinary.com/procoding/image/upload/v1594660569/GitHub/Nova/Config/nova-install_sljfns.gif
+[install-github]: https://res.cloudinary.com/procoding/image/upload/v1594660568/GitHub/Nova/Config/github-install_a7ybnr.jpg

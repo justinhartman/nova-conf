@@ -1,7 +1,7 @@
 # Config Highlighter for Nova
 
 <img style="float:left;width:100px;height:auto;padding:0 20px 0 0;"
-src="https://bit.ly/3er6C4J">
+src="https://bit.ly/2Dxu1EM">
 
 [Nova][nova] editor syntax highlighter and code completion for `.conf` and
 `.cnf` files. This extension will format any config files for Apache, Redis,
